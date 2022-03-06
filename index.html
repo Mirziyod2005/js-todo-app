@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS To-Do Progress APP</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-10 mt-3 offset-1">
+            <div class="card">
+                <div class="card-body">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Type here" id="add-card">
+                        <div class="input-group-append">
+                            <button type="button" class="btn btn-success" onclick="addCard()">Add</button>
+                        </div>
+                    </div>
+
+                    <div class="progress mt-3">
+                        <div class="progress-bar" id="progress"></div>
+                    </div>
+                </div>
+
+                <div class="card-body mt-3">
+                    <div class="row">
+                        <div class="col-6" id="result1"></div>
+                        <div class="col-6" id="result2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
